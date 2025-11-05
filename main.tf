@@ -46,7 +46,7 @@ module "ec2_instances" {
 
   tags = {
     Terraform   = "true"
-    Environment = "dev"
+    Environment = "development"
   }
 }
 
@@ -57,6 +57,6 @@ module "website_s3_bucket" {
 
   tags = {
     Terraform   = "true"
-    Environment = "dev"
+    Environment = "development"
   }
 }
