@@ -53,7 +53,7 @@ module "ec2_instances" {
 module "website_s3_bucket" {
   source = "./modules/aws-s3-static-website-bucket"
 
-  bucket_name = "mighty_s3_01"
+  bucket_name = "mighty-s3-02"
 
   tags = {
     Terraform   = "true"
